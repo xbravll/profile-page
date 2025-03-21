@@ -1,0 +1,50 @@
+hello-world-project/
+│
+├── index.html
+├── styles.css
+└── script.js
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../image/background.jpg'); /* Ganti dengan path ke gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Memastikan latar belakang tetap di tempat saat menggulir */
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Menambahkan latar belakang semi-transparan pada container */
+    height: 300px;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #f3f3f3;
+    transform: translateY(-100px);
+}
+
+.button, .button1, .button2 {
+    display: inline-block; /* Pastikan elemen ditampilkan sebagai blok sebaris */
+    margin-top: -10px; /* Atur jarak atas untuk menaikkan posisi */
+    text-decoration: none; /* Hilangkan garis bawah pada tautan */
+    padding: 10px 20px; /* Tambahkan padding untuk tombol */
+    background-color: #007bff; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border-radius: 5px; /* Tambahkan sudut melengkung */
+    transition: transform 0.3s ease; /* Tambahkan transisi untuk efek hover */
+    transform: translateY(-70px);
+}
+
+.button:hover, .button1:hover, .button2:hover {
+    transform: translateY(-80px); /* Efek hover untuk menaikkan tombol */
+    background-color: #0056b3; /* Ubah warna latar belakang saat hover */
+}
