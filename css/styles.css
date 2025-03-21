@@ -32,7 +32,7 @@ h1 {
     transform: translateY(-100px);
 }
 
-.button, .button1, .button2 {
+.button, .button1 {
     display: inline-block; /* Pastikan elemen ditampilkan sebagai blok sebaris */
     margin-top: -10px; /* Atur jarak atas untuk menaikkan posisi */
     text-decoration: none; /* Hilangkan garis bawah pada tautan */
